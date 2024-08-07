@@ -1,0 +1,76 @@
+<form
+  class="gform pure-form pure-form-aligned"
+  method="POST"
+  action="https://script.google.com/macros/s/AKfycbxJaX4G5gFasPoADXmq4hTb0YnKPrs5klgFngsuBFbHZXbzaOleFg0uXu9DF7uhikRn/exec"
+>
+  <div class="pure-control-group">
+    <fieldset>
+      <label for="name">Name: </label>
+      <input id="name" name="name" placeholder="Mr Body" required />
+      <span class="pure-form-message-inline">This is a required field.</span>
+    </fieldset>
+
+    <fieldset>
+      <label for="email">Email Address:</label>
+      <input
+        id="email"
+        name="email"
+        type="email"
+        value=""
+        required
+        placeholder="your.name@email.com"
+      />
+      <span class="pure-form-message-inline">This is a required field.</span>
+    </fieldset>
+
+    <fieldset>
+      <label for="message">Message: </label>
+      <textarea
+        id="message"
+        name="message"
+        rows="10"
+        placeholder="Questions/Comments..."
+      ></textarea>
+    </fieldset>
+
+    <fieldset class="pure-group honeypot-field">
+      <label for="honeypot">
+        To help avoid spam, utilize a Honeypot technique with a hidden text
+        field; must be empty to submit the form! Otherwise, we assume the user
+        is a spam bot.
+      </label>
+      <input id="honeypot" type="text" name="honeypot" value="" />
+    </fieldset>
+
+    <input type="hidden" id="event" name="event" value="{{ .Get "event" }}" />
+    <input type="hidden" id="event" name="event" value="{{ .Get "location" }}"
+    />
+
+    <button
+      class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+    >
+      {{ partial "fontawesome" "paper-plane" }}&nbsp;Send
+    </button>
+  </div>
+
+  <!-- Customise the Thankyou Message People See when they submit the form: -->
+  <div class="thankyou_message" style="display: none">
+    <p>
+      {{ partial "fontawesome" "thumbs-up" }} <b>RSVP Success</b>
+      <em>Thanks</em> for RSVP'ing!
+    </p>
+    <p>
+      If you submitted any questions/comments, we will endeavour to answer those
+      as soon as possible.
+    </p>
+    <p>Otherwise, see you at the event!</p>
+  </div>
+</form>
+
+{{ $rsvpSubmit := resources.Get "js/form-submission-handler.js" | minify |
+fingerprint -}}
+<script
+  data-cfasync="false"
+  type="text/javascript"
+  src="{{ $rsvpSubmit.RelPermalink }}"
+></script>
