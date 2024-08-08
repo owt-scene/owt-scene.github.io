@@ -35,4 +35,11 @@ small-business, open-source, government or anything else.
 
 ## Organisers
 
-- **Brisbane, AU**: Josh Rich ({{< icon "github" >}} [GitHub](https://github.com/joshaur) {{< icon "linkedin" >}} [LinkedIn](https://www.linkedin.com/in/joshuarichau/))
+- **Brisbane, AU**: Josh Rich ({{< icon "github" >}}
+  [GitHub](https://github.com/joshaur) {{< icon "linkedin" >}}
+  [LinkedIn](https://www.linkedin.com/in/joshuarichau/))
+
+**Want to set up a scene in your town/city?** Just go for it!
+
+**Want to use this website to post events and content?** Sure thing, [email
+us](mailto:owt.scene@gmail.com) and we can sort out the deets.
