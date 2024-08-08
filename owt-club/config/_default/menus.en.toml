@@ -11,25 +11,30 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
+name = "Home"
+url = "/"
+weight = 5
+
+
+[[main]]
 name = "About"
 pageRef = "about"
 weight = 10
 
-
-[[main]]
-name = "Posts"
-pageRef = "posts"
-weight = 20
+# [[main]]
+# name = "Posts"
+# pageRef = "posts"
+# weight = 20
 
 [[main]]
 name = "Events"
 pageRef = "events"
 weight = 30
 
-[[main]]
-name = "Topics"
-pageRef = "topics"
-weight = 40
+# [[main]]
+# name = "Topics"
+# pageRef = "topics"
+# weight = 40
 
 
 #[[main]]
