@@ -33,3 +33,4 @@
 
 - ICal handling thanks to [github.com/raoulb/hugo-ical-templates](https://github.com/raoulb/hugo-ical-templates).
 - Google forms thanks to [github.com/dwyl/learn-to-send-email-via-google-script-html-no-server](https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server).
+- Sharing buttons thanks to [github.com/Stals/hugo-share-buttons](https://github.com/Stals/hugo-share-buttons).

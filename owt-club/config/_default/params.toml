@@ -148,3 +148,7 @@ google = "tSf3ip9-PHboKG1LpVWY5LMkeOCKEk6RyfNqldSrDdU"
 # bing = ""
 # pinterest = ""
 # yandex = ""
+
+[shareButtons]
+size = "small"
+networks = ["facebook", "twitter", "reddit", "linkedin", "telegram", "email"]
