@@ -3,5 +3,17 @@
   "files.trimTrailingWhitespace": true,
   "editor.formatOnSave": true,
   "files.autoSave": "onFocusChange",
-  "conventionalCommits.scopes": ["config"]
+  "conventionalCommits.scopes": [
+    "config",
+    "content",
+    "partials",
+    "shortcodes",
+    "vscode"
+  ],
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
