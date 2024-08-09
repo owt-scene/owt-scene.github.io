@@ -9,7 +9,8 @@
     "partials",
     "shortcodes",
     "vscode",
-    "archetypes"
+    "archetypes",
+    "git"
   ],
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
