@@ -1,12 +1,14 @@
 ---
-title: "2024-08-21 - Brisbane Inner North Coffee/Tea/Drinks"
-date: "2024-08-08T00:00:00+10:00"
-startDate: "2024-08-21T10:00:00+10:00"
-endDate:   "2020-08-26T11:00:00+10:00"
-timezoneID: "Australia/Brisbane"
-where: "H Cafe & Bar - Portside"
-orga: "Josh Rich"
-orgaEmail: "joshua.rich@gmail.com"
+title: 2024-08-21 - Brisbane Inner North Coffee/Tea/Drinks
+description: The inaugural OWT scene meetup in Brisbane.
+date: 2024-08-11T23:36:09.611Z
+startDate: 2024-08-21T10:00:00+10:00
+endDate: 2020-08-26T11:00:00+10:00
+timezoneID: Australia/Brisbane
+location: H Cafe & Bar - Portside
+status: CONFIRMED
+orga: Josh Rich
+orgaEmail: joshua.rich@gmail.com
 ---
 
 ## Details

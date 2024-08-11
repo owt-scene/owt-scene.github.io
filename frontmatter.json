@@ -7,41 +7,54 @@
       "previewPath": null,
       "fields": [
         {
-          "title": "Title",
+          "title": "title",
           "name": "title",
           "type": "string"
         },
         {
-          "title": "Description",
+          "title": "description",
           "name": "description",
           "type": "string"
         },
         {
-          "title": "Publishing date",
+          "title": "date",
           "name": "date",
-          "type": "datetime",
-          "default": "{{now}}",
-          "isPublishDate": true
+          "type": "datetime"
         },
         {
-          "title": "Content preview",
-          "name": "preview",
-          "type": "image"
+          "title": "startDate",
+          "name": "startDate",
+          "type": "datetime"
         },
         {
-          "title": "Is in draft",
-          "name": "draft",
-          "type": "draft"
+          "title": "endDate",
+          "name": "endDate",
+          "type": "datetime"
         },
         {
-          "title": "Tags",
-          "name": "tags",
-          "type": "tags"
+          "title": "timezoneID",
+          "name": "timezoneID",
+          "type": "string"
         },
         {
-          "title": "Categories",
-          "name": "categories",
-          "type": "categories"
+          "title": "location",
+          "name": "location",
+          "type": "string"
+        },
+        {
+          "title": "status",
+          "name": "status",
+          "type": "string"
+        },
+        {
+          "title": "orga",
+          "name": "orga",
+          "type": "string"
+        },
+        {
+          "title": "orgaEmail",
+          "name": "orgaEmail",
+          "type": "string"
         }
       ]
     }
