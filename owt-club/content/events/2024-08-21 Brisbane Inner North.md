@@ -31,6 +31,6 @@ Shop 2/35A Hercules St, Hamilton QLD 4007
 
 ## RSVP
 
-{{< rsvp event="first_event" location="Brisbane, AU" next=.RelPermalink >}}
+{{< rsvp event="20240821-Brisbane" location="Brisbane, AU" next=.RelPermalink >}}
 
 ---
