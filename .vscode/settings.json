@@ -10,7 +10,8 @@
     "shortcodes",
     "vscode",
     "archetypes",
-    "git"
+    "git",
+    "theme"
   ],
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one"
