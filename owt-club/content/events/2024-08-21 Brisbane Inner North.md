@@ -3,7 +3,7 @@ title: "2024-08-21 - Brisbane Inner North Coffee/Tea/Drinks"
 date: "2024-08-08T00:00:00+10:00"
 startDate: "2024-08-21T10:00:00+10:00"
 endDate:   "2020-08-26T11:00:00+10:00"
-where: "TBD"
+where: "H Cafe & Bar - Portside"
 orga: "Josh Rich"
 orgaEmail: "joshua.rich@gmail.com"
 ---
