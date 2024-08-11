@@ -3,8 +3,8 @@
 {{/* Multiline hack from: https://github.com/gohugoio/hugoDocs/issues/764#issuecomment-625711237 */}}
 
 {{ with dict `` `
-  ` "name"         (dict "text" "Example Events" "lang" "de-CH") `` `
-  ` "description"  (dict "text" "Example Events Calendar" "lang" "de-CH") `` `
+  ` "name"         (dict "text" "OWT Scene Events" "lang" "en-US") `` `
+  ` "description"  (dict "text" "OWT Scene Events Calendar" "lang" "en-US") `` `
   ` "url"          (.OutputFormats.Get "HTML").Permalink `` `
   ` "color"        "crimson" `` `
   ` "uid"          .File.UniqueID `` `

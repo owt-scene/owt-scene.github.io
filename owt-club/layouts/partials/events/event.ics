@@ -3,13 +3,13 @@
 {{/* Multiline hack from: https://github.com/gohugoio/hugoDocs/issues/764#issuecomment-625711237 */}}
 
 {{ with dict `` `
-  ` "description"  (dict "text" .Plain "lang" "de-CH") `` `
-  ` "summary"      (dict "text" .Title "lang" "de-CH") `` `
-  ` "eventStart"   (dict "dateTime" .Params.startDate "timeZoneID" "Europe/Zurich") `` `
-  ` "eventEnd"     (dict "dateTime" .Params.endDate "timeZoneID" "Europe/Zurich") `` `
-  ` "location"     (dict "text" .Params.location "lang" "de-CH") `` `
+  ` "description"  (dict "text" .Plain "lang" "en-US") `` `
+  ` "summary"      (dict "text" .Title "lang" "en-US") `` `
+  ` "eventStart"   (dict "dateTime" .Params.startDate "timeZoneID" .Params.timezoneID) `` `
+  ` "eventEnd"     (dict "dateTime" .Params.endDate "timeZoneID" .Params.timezoneID) `` `
+  ` "location"     (dict "text" .Params.location "lang" "en-US") `` `
   ` "url"          (.OutputFormats.Get "HTML").Permalink `` `
-  ` "contact"      (dict "text" (printf "%s: %s" .Params.orga .Params.orgaEmail) "lang" "de-CH") `` `
+  ` "contact"      (dict "text" (printf "%s: %s" .Params.orga .Params.orgaEmail) "lang" "en-US") `` `
   ` "color"        "crimson" `` `
   ` "status"       (cond (.Params.cancelled | default false) "CANCELLED" "CONFIRMED") `` `
   ` "uid"          .File.UniqueID `` `
