@@ -9,6 +9,8 @@ params:
   location: H Cafe & Bar - Portside
   status: CONFIRMED
   orga: Josh Rich
+  orgaLinkedIn: joshuarichau
+  orgaGitHub: joshuar
   orgaEmail: owt.scene+joshrich@gmail.com
 ---
 

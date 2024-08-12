@@ -9,5 +9,12 @@
     {{ .Page.Params.startDate | time.Format ":time_short" }} - {{
     .Page.Params.endDate | time.Format ":time_short" }}
   </li>
-  <li><b>Organised by:</b> {{ .Page.Params.orga }}</li>
+  <li>
+    <b>Organised by:</b> {{ .Page.Params.orga }} {{ with
+    .Page.Params.orgaLinkedIn }}<i class="fa fa-linkedin"></i>
+    <a href="https://www.linkedin.com/in/{{ . }}/">LinkedIn</a> {{ end }} {{
+    with .Page.Params.orgaGitHub }} <i class="fa fa-github"></i>
+    <a href="https://github.com/{{ . }}/">GitHub</a>
+    {{ end }}
+  </li>
 </ul>
