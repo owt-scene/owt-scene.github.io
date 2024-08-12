@@ -27,7 +27,3 @@ We discuss anything and everything. We can talk shop, industry rumours, job
 hunting tips, pitch ideas. But mainly, lets connect outside of
 Slack/Email/Stand-ups/Zoom and in-person. They say it's good for you to do it
 occasionally, so get ur quota in.
-
-{{< ics href="calendar.ics" >}}
-Subscribe to the events calendar
-{{< /ics >}}
