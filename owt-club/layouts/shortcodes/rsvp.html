@@ -42,8 +42,12 @@
       <input id="honeypot" type="text" name="honeypot" value="" />
     </fieldset>
 
-    <input type="hidden" id="event" name="event" value="{{ .Get "event" }}" />
-    <input type="hidden" id="event" name="event" value="{{ .Get "location" }}"
+    <input type="hidden" id="event" name="event" value="{{ .Page.Title }}" />
+    <input
+      type="hidden"
+      id="location"
+      name="location"
+      value="{{ .Page.Params.Location }}"
     />
 
     <button
