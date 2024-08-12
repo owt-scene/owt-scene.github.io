@@ -18,7 +18,7 @@ params:
 
 {{< event-details >}}
 
-{{< ics href="calendar.ics" >}}Add to calendar{{< /ics >}}
+{{< ics >}}
 
 {{< alert "circle-info" >}}
 Don't forget to RSVP Below!
