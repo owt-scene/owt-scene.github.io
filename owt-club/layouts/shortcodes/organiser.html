@@ -1,0 +1,5 @@
+{{ .Get "name" }} {{ with .Get "linkedin" }}<i class="fa fa-linkedin"></i>
+<a href="https://www.linkedin.com/in/{{ . }}/">LinkedIn</a> {{ end }} {{ with
+.Get "github" }}<i class="fa fa-github"></i>
+<a href="https://github.com/{{ . }}/">GitHub</a>
+{{ end }}

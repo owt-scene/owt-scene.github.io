@@ -35,9 +35,7 @@ small-business, open-source, government or anything else.
 
 ## Organisers
 
-- **Brisbane, AU**: Josh Rich ({{< icon "github" >}}
-  [GitHub](https://github.com/joshaur) {{< icon "linkedin" >}}
-  [LinkedIn](https://www.linkedin.com/in/joshuarichau/))
+- **Brisbane, AU**: {{< organiser name="Josh Rich" github="joshuar" linkedin="joshuarichau" >}}
 
 **Want to set up a scene in your town/city?** Just go for it!
 
