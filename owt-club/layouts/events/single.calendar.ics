@@ -1,9 +1,5 @@
 BEGIN:VCALENDAR
-
 {{ partial "events/header.ics" . }}
-
 {{ partial "events/timezone.ics" . }}
-
 {{ partial "events/event.ics" . }}
-
 END:VCALENDAR
