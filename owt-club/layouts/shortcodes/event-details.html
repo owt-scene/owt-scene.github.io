@@ -1,0 +1,13 @@
+{{ .Page.Description }}
+
+<ul>
+  <li>
+    <b>Date:</b> {{ .Page.Params.startDate | time.Format ":date_medium" }}
+  </li>
+  <li>
+    <b>Time:</b>
+    {{ .Page.Params.startDate | time.Format ":time_short" }} - {{
+    .Page.Params.endDate | time.Format ":time_short" }}
+  </li>
+  <li><b>Organised by:</b> {{ .Page.Params.orga }}</li>
+</ul>
