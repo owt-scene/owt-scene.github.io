@@ -22,39 +22,56 @@
           "type": "datetime"
         },
         {
-          "title": "startDate",
-          "name": "startDate",
-          "type": "datetime"
-        },
-        {
-          "title": "endDate",
-          "name": "endDate",
-          "type": "datetime"
-        },
-        {
-          "title": "timezoneID",
-          "name": "timezoneID",
-          "type": "string"
-        },
-        {
-          "title": "location",
-          "name": "location",
-          "type": "string"
-        },
-        {
-          "title": "status",
-          "name": "status",
-          "type": "string"
-        },
-        {
-          "title": "orga",
-          "name": "orga",
-          "type": "string"
-        },
-        {
-          "title": "orgaEmail",
-          "name": "orgaEmail",
-          "type": "string"
+          "title": "params",
+          "name": "params",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "startDate",
+              "name": "startDate",
+              "type": "datetime"
+            },
+            {
+              "title": "endDate",
+              "name": "endDate",
+              "type": "datetime"
+            },
+            {
+              "title": "timezoneID",
+              "name": "timezoneID",
+              "type": "string"
+            },
+            {
+              "title": "location",
+              "name": "location",
+              "type": "string"
+            },
+            {
+              "title": "status",
+              "name": "status",
+              "type": "string"
+            },
+            {
+              "title": "orga",
+              "name": "orga",
+              "type": "string"
+            },
+            {
+              "title": "orgaLinkedIn",
+              "name": "orgaLinkedIn",
+              "type": "string"
+            },
+            {
+              "title": "orgaGitHub",
+              "name": "orgaGitHub",
+              "type": "string"
+            },
+            {
+              "title": "orgaEmail",
+              "name": "orgaEmail",
+              "type": "string"
+            }
+          ]
         }
       ]
     }
