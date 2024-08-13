@@ -33,7 +33,8 @@
 
 ### event-details
 
-- Renders the event details, taken from the frontmatter of the event page, in a nice way on the page.
+- Renders the event details, taken from the frontmatter of the event page, in a
+  nice way on the page.
 - Includes description, date, time and organiser details.
 
 Usage:
