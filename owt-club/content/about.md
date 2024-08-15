@@ -35,7 +35,8 @@ small-business, open-source, government or anything else.
 
 ## Organisers
 
-- **Brisbane, AU**: {{< organiser name="Josh Rich" github="joshuar" linkedin="joshuarichau" >}}
+- **Brisbane, AU**: {{< organiser name="Josh Rich" github="joshuar"
+  linkedin="joshuarichau" >}}
 
 **Want to set up a scene in your town/city?** Just go for it!
 
