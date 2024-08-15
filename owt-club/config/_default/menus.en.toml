@@ -15,77 +15,22 @@ name = "Home"
 url = "/"
 weight = 5
 
-
 [[main]]
 name = "About"
 pageRef = "about"
 weight = 10
-
-# [[main]]
-# name = "Posts"
-# pageRef = "posts"
-# weight = 20
 
 [[main]]
 name = "Events"
 pageRef = "events"
 weight = 30
 
-# [[main]]
-# name = "Topics"
-# pageRef = "topics"
-# weight = 40
-
-
-#[[main]]
-#  name = "Parent"
-#  weight = 20
-
-#[[main]]
-#  name = "example sub-menu 1"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
-
-#[[main]]
-#  name = "example sub-menu 2"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
-
-#[[subnavigation]]
-#  name = "An interesting topic"
-#  pageRef = "tags/interesting-topic"
-#  weight = 10
-
-#[[subnavigation]]
-#  name = "My Awesome Category"
-#  pre = "github"
-#  pageRef = "categories/awesome"
-#  weight = 20
-
-#[[main]]
-#  name = "Categories"
-#  pageRef = "categories"
-#  weight = 20
-
-#[[main]]
-#  name = "Tags"
-#  pageRef = "tags"
-#  weight = 30
-
-
-# -- Footer Menu --
-# The footer menu is displayed at the bottom of the page, just before
-# the copyright notice. Configure as per the main menu above.
-
-
 [[footer]]
 name = "GitHub"
 pre = "github"
 url = "https://github.com/owt-scene"
 
-# [[footer]]
-#   name = "Categories"
-#   pageRef = "categories"
-#   weight = 20
+[[footer]]
+name = "Code of Conduct"
+pageRef = "coc"
+weight = 90
