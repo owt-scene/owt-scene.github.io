@@ -14,7 +14,9 @@
     "theme"
   ],
   "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
+    "editor.trimAutoWhitespace": true,
+    "rewrap.autoWrap.enabled": true
   },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
