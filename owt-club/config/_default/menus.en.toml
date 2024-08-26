@@ -34,3 +34,8 @@ url = "https://github.com/owt-scene"
 name = "Code of Conduct"
 pageRef = "coc"
 weight = 90
+
+[[footer]]
+name = "Privacy Policy"
+pageRef = "privacy"
+weight = 90
