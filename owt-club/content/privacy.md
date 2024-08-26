@@ -4,10 +4,9 @@ showReadingTime: false
 showWordCount: false
 showAuthor: false
 showDate: false
+showPagination: false
 showTableOfContents: true
 ---
-
-# Privacy Policy
 
 OWT Scene is committed to providing quality services to you and this policy
 outlines our ongoing obligations to you in respect of how we manage your

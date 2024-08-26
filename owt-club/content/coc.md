@@ -4,6 +4,7 @@ showReadingTime: false
 showWordCount: false
 showAuthor: false
 showDate: false
+showPagination: false
 showTableOfContents: true
 ---
 
