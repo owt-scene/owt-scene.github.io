@@ -4,6 +4,7 @@ showReadingTime: false
 showWordCount: false
 showAuthor: false
 showDate: false
+showTableOfContents: true
 ---
 
 We as members, contributors, and leaders pledge to make participation in our
