@@ -11,7 +11,8 @@
     "vscode",
     "archetypes",
     "git",
-    "theme"
+    "theme",
+    "devcontainer"
   ],
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one",
