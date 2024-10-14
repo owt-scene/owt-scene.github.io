@@ -10,9 +10,11 @@ showTableOfContents: true
 
 ## Who are we?
 
+{{< lead >}}
 Tech Worker? Out of Work? Recently laid off? Taking a break?
 
-**This is your scene.**
+*This is your scene.*
+{{< /lead >}}
 
 If you worked in tech, but are now out of tech, then the OWT Scene is your
 place. We're fellow tech workers who find ourselves either voluntarily or
@@ -37,7 +39,7 @@ small-business, open-source, government or anything else.
 
 ## Organisers
 
-- **Brisbane, AU**: {{< organiser name="Josh Rich" github="joshuar"
+- **Brisbane, AU**: {{< organiser name="Josh Rich" url="/organisers/josh_rich" github="joshuar"
   linkedin="joshuarichau" >}}
 
 **Want to set up a scene in your town/city?** Just go for it!
