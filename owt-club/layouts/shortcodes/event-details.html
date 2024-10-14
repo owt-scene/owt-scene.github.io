@@ -10,11 +10,15 @@
     .Page.Params.endDate | time.Format ":time_short" }}
   </li>
   <li>
-    <b>Organised by:</b> {{ .Page.Params.orga }} {{ with
+    <b>Organised by:</b> <a href={{ .Page.Params.orgaURL }}>{{ .Page.Params.orga }}</a> {{ with
     .Page.Params.orgaLinkedIn }}<i class="fa fa-linkedin"></i>
     <a href="https://www.linkedin.com/in/{{ . }}/">LinkedIn</a> {{ end }} {{
     with .Page.Params.orgaGitHub }} <i class="fa fa-github"></i>
     <a href="https://github.com/{{ . }}/">GitHub</a>
     {{ end }}
+  </li>
+  <li>
+    Look out for the <a href={{ .Page.Params.orgaURL }}>organiser</a> (click for picture/bio) at the
+    venue and say hi!
   </li>
 </ul>
